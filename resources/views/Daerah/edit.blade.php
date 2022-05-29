@@ -18,7 +18,7 @@
     <input type="text" class="form-control" value="{{ $data->daerah }}" id="daerah" name="daerah">
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
-  <a class="btn btn-success " type="button" href="{{ route('daerahData') }}">back</a>
+  <a class="btn btn-success " type="button" href="{{ route('daerahData') }}">Back</a>
 </form>
 </div>
 @endsection

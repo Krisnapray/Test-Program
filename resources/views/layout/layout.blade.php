@@ -16,10 +16,10 @@
       <a class="nav-link {{Request::is('provinsiData')? 'active':''}}" aria-current="page" href="{{route ('provinsiData') }}"  >Provinsi</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link {{Request::is('kabupatenData')? 'active':''}}" aria-current="page" href="{{route ('kabupatenData') }}">kabupaten</a>
+      <a class="nav-link {{Request::is('kabupatenData')? 'active':''}}" aria-current="page" href="{{route ('kabupatenData') }}" >Kabupaten</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link {{Request::is('daerahData')? 'active':''}}" aria-current="page" href="{{route('daerahData')}}">daerah</a>
+      <a class="nav-link {{Request::is('daerahData')? 'active':''}}" aria-current="page" href="{{route('daerahData')}}" >Daerah</a>
     </li>
 </ul>
 

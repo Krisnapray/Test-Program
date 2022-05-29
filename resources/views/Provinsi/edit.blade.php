@@ -9,7 +9,7 @@
     <input type="text" class="form-control" id="provinsi" value="{{ $data->nama_provinsi}}" name="provinsi" required autofocus>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
-  <a class="btn btn-success " type="button" href="{{ route('provinsiData') }}">back</a>
+  <a class="btn btn-success " type="button" href="{{ route('provinsiData') }}">Back</a>
 </form>
   
 </div>

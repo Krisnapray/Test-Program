@@ -11,7 +11,7 @@
         <option value="{{$datas->id}}">{{$datas->nama_provinsi}}</option>
       @endforeach
     </select>
-    <!-- <input type="text" class="form-control" id="kabupaten" name="kabupaten"> -->
+    
   </div>
   <div class="mb-3">
     <label for="kabupaten" class="form-label">Kabupaten</label>

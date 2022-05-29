@@ -32,7 +32,7 @@
             <td>
                 <div class="btn-group" role="group" aria-label="basic-example">
                 @csrf
-                <a type="button" class="btn btn-info" href="{{route('Edit-kabupaten',$datas->id)}}">edit</a>
+                <a type="button" class="btn btn-info" href="{{route('Edit-kabupaten',$datas->id)}}">Edit</a>
                 </div>
                 <td>
                 <form action="{{route('delete-kabupaten',$datas->id)}}" method="post" >

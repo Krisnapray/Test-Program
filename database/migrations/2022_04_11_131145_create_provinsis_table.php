@@ -4,6 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
+
 class CreateProvinsisTable extends Migration
 {
     /**
@@ -15,7 +16,7 @@ class CreateProvinsisTable extends Migration
     {
         Schema::create('provinsis', function (Blueprint $table) {
             $table->id();
-            $table->string('nama provinsi');
+            $table->string('nama_provinsi');
             $table->timestamps();
         });
     }

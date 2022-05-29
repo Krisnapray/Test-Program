@@ -1,6 +1,7 @@
 @extends('layout.layout')
 @section('title','add provinsi')
 @section('contens')
+
 <div class="container">
 <form action="{{ route('save-add-provinsi')}}" method="post">
   @csrf

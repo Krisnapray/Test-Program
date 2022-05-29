@@ -33,7 +33,7 @@
             <td>
                 <div class="btn-group" role="group" aria-label="basic-example">
                 @csrf
-                <a type="button" class="btn btn-info" href="{{route('edit-daerah',$datas->id)}}">edit</a>
+                <a type="button" class="btn btn-info" href="{{route('edit-daerah',$datas->id)}}">Edit</a>
                 </div>
                 <td>
                 <form action="{{route('delete-daerah',$datas->id)}}" method="post" >

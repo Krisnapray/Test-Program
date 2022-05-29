@@ -30,6 +30,7 @@ class daerahController extends Controller
 
         $data=new daerah();
         $data->daerah=$request->daerah;
+        $data->id_provinsi='1';
         $data->id_kabupaten= $request->kabupaten_id;
         $data->save();
 

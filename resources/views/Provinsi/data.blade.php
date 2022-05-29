@@ -31,7 +31,7 @@
       <td>
         <div class="btn-group" role="group" aria-label="basic-example">
           @csrf
-          <a type="button" class="btn btn-info" href="{{route('Edit-provinsi',$datas->id)}}">edit</a>
+          <a type="button" class="btn btn-info" href="{{route('Edit-provinsi',$datas->id)}}">Edit</a>
         </div>
         <td>
         <form action="{{route('delete-provinsi',$datas->id)}}" method="post" >
